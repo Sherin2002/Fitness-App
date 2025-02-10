@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".NotificationActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="650dp">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="665dp"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:text="Home"
+            android:textColor="#01020B"
+            android:textSize="14sp"
+
+
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewR"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/reports" />
+
+        <TextView
+            android:id="@+id/textViewM"
+            android:layout_width="58dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:text="Report"
+            android:textColor="#010413"
+            android:textStyle="bold"
+            tools:textSize="14sp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewM"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/notifications" />
+
+        <TextView
+            android:id="@+id/textViewN"
+            android:layout_width="78dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="60dp"
+            android:text="Messages"
+            android:textColor="#16288E"
+            android:textStyle="italic"
+            tools:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="60dp"
+            android:text="Profile"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold"
+            tools:textSize="14sp" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="651dp"
+        android:text="Notifications"
+        android:textColor="#0B0A0A"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageViewP1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginEnd="349dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageViewP2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imageViewP1"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="385dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageViewP3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="323dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageViewP4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginBottom="253dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="342dp"
+        android:layout_marginBottom="179dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Reminder to WorkOut    2+"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Motivation Messages    3+"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Progress to Update        2+"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="19dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Social Interactions         1+"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Event Reminder              1+"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
+

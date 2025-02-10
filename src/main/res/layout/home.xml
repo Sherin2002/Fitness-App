@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="647dp"
+        android:text="DAILY PLANS"
+        android:textAlignment="center"
+        android:textColor="#150F0F"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="558dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="-47dp"
+        android:layout_marginBottom="328dp"
+        app:srcCompat="@drawable/plan" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="542dp"
+        android:text="FUL-BODY WEIGHT LOSS"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="138dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="5dp"
+        android:text="07 DAYS"
+        android:textColor="#1A1B1A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="650dp">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="665dp"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:id="@+id/Home_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:text="Home"
+            android:textColor="#3F51B5"
+            android:textSize="12sp"
+
+
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/report"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/reports" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:text="Report"
+            android:textColor="#121111"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/notifications" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="60dp"
+            android:text="Messages"
+            android:textColor="#121111"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="60dp"
+            android:text="Profile"
+            android:textColor="#100F0F"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 01  -  04 EXCERCISES"
+        android:textColor="#DEDFE3" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 02   -   04 EXCERCISES"
+        android:textColor="#D4D5D8"
+        android:textColorHint="#172055" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 03  -   04 EXCERCISES"
+        android:textColor="#EDEBF1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 04   -   05 EXCERCISES"
+        android:textColor="#EEECF3" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 05   -   05 EXCERCISES"
+        android:textColor="#F6F1F1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 06   -   04 EXCERCISES"
+        android:textColor="#EAE9ED" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/black"
+        android:text="DAY 07   -   05 EXCERCISES"
+        android:textColor="#EBE9EF" />
+
+
+</RelativeLayout>
+

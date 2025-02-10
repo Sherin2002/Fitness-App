@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="651dp"
+        android:text="My Profile"
+        android:textColor="#151515"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="611dp"
+        android:text="Hi Sherin,"
+        android:textColor="#1C1A1A"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="491dp"
+        app:srcCompat="@drawable/baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="449dp"
+        android:text="Sherin De Silva"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="57dp"
+        android:text="sherindesilva123@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#150B0B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Security"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Language"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Dark Mode"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="133dp"
+        android:backgroundTint="#ffffffff"
+        android:text="Log Out"
+        android:textColor="#C81616"
+        android:textSize="20dp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="650dp">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="665dp"
+            android:gravity="bottom" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/home" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="60dp"
+            android:text="Home"
+            android:textColor="#111112"
+            android:textStyle="bold"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/reports" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="45dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="60dp"
+            android:text="Report"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/notifications" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="60dp"
+            android:text="Messages"
+            android:textColor="#100F0F"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="60dp"
+            android:text="Profile"
+            android:textColor="#3F51B5"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>
